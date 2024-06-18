@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Loader from "./Loader";
 import MovieDetailsContent from "./MovieDetailsContent";
 import ErrorMessage from "./ErrorMessage";
-import {KEY} from "../App";
+import { KEY } from "../App";
 
 export default function MovieDetails({
   selectedId,
